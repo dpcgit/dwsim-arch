@@ -10,7 +10,7 @@ arch=('x86_64')
 url="http://dwsim.inforside.com.br"
 license=('GNU')
 groups=('')
-depends=('crossover' 'desktop-file-utils' 'fontconfig' 'glu' 'gtk2>=2.12' 'hicolor-icon-theme' 'mono>=5.14')
+depends=('crossover' 'desktop-file-utils' 'fontconfig' 'glu' 'gtk2>=2.12' 'hicolor-icon-theme' 'mono>=5.14' 'gtk-sharp-2>=2.12')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source_x86_64=("https://sourceforge.net/projects/dwsim/files/DWSIM/DWSIM%205.8/Update%2011/dwsim_5.8.11-amd64.deb/download")
