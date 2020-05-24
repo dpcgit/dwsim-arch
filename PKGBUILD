@@ -24,7 +24,7 @@ package(){
 	# Fix directory structure differences
 	cd "${pkgdir}"
 
-	install -D -m644 "/usr/local/lib/dwsim/license.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -D -m644 "${pkgdir}/usr/local/lib/dwsim/license.txt" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 	mkdir usr/bin 2> /dev/null; mv usr/local/bin/* usr/bin; rm -rf usr/local/bin
 
 	cd ..
